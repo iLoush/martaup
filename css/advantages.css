@@ -12,7 +12,7 @@
    padding-bottom: 76px;
 }
 
-.advantaged-box--right .advantages-box_info {
+.advantaged-box--right .advantages__box-info {
    order: 1;
    background-image: url(../images/path-2.svg);
    background-position: 22px 130px;
