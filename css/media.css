@@ -271,6 +271,10 @@
    .advantaged-box--right.advantages__box-text {
       padding-left: 0px;
    }
+
+   .reviews__item {
+      width: 83%;
+   }
 }
 
 @media (min-width: 571px) {
