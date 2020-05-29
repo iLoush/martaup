@@ -1,0 +1,10 @@
+.footer__inner {
+   display: flex;
+   justify-content: space-between;
+   color: #272727;
+   padding: 20px 40px 17px;
+}
+
+.footer__link a+a {
+   margin-left: 20px;
+}

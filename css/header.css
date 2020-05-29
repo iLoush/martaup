@@ -1,0 +1,125 @@
+.header {
+   background: url(../images/header-bg.jpg);
+   min-height: 793px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-spacing: top center;
+}
+
+.container {
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.header-top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+}
+
+.menu__list {
+   display: flex;
+}
+
+.menu__list li+li {
+   padding-left: 50px;
+}
+
+.login {
+   margin-right: 44px;
+   color: #fff;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+
+.menu__list a {
+   opacity: 0.5;
+   color: #fff;
+   font-weight: 500;
+   text-transform: uppercase;
+   transition: all 0.5s;
+}
+
+.menu__list a:hover {
+   opacity: 1;
+}
+
+.sign-up {
+   color: #250f8a;
+   text-transform: uppercase;
+   font-weight: 600;
+   background-color: #fff;
+   padding: 8px 43px;
+   border-radius: 20px;
+}
+
+.header-slider {
+   padding-top: 111px;
+   color: #fff;
+}
+
+.header-slider_item-content {
+   display: flex;
+   justify-content: space-between;
+}
+
+.header-slider_item-info {
+   max-width: 506px;
+}
+
+.header-slider_title {
+   font-weight: bold;
+   font-size: 40px;
+   line-height: 55px;
+}
+
+.header-slider-description {
+   font-size: 24px;
+   line-height: 55px;
+   margin-bottom: 60px;
+}
+
+.header-slider-btn {
+   text-transform: uppercase;
+   color: #250f8a;
+   font-weight: 600;
+   padding: 13px 39px;
+   border-radius: 25px;
+   background: #ffca00;
+}
+
+.header-slider_item-img {
+   margin: 10px 82px 0 0;
+}
+
+.header-dots {
+   list-style: none;
+   position: absolute;
+   right: 0;
+   top: 50%;
+   transform: scaleY(-50%);
+}
+
+.header-dots button {
+   border: none;
+   background-color: #fff;
+   opacity: 0.5;
+   width: 7px;
+   height: 7px;
+   border-radius: 3.5px;
+   font-size: 0;
+   padding: 0;
+   cursor: pointer;
+   outline: none;
+   margin: 10px auto;
+   display: block;
+}
+
+.header-dots .slick-active button {
+   width: 15px;
+   opacity: 1;
+}

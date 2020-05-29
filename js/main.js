@@ -1,15 +1,19 @@
-$(function(){
+$(function () {
 
     $('.header-slider').slick({
         arrows: false,
         vertical: true,
         dots: true,
         dotsClass: 'header-dots',
-        // autoplay: 2000,
+        autoplay: 2000,
     });
 
-    $('.menu_btn').on('click', function(){
+    $('.menu_btn').on('click', function () {
         $('.menu_list').slideToggle();
+    });
+
+    $('.menu__btn').on('click', () => {
+        $('.menu__list').slideToggle();
     });
 
 });

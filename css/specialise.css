@@ -1,0 +1,48 @@
+.specialise {
+   padding: 55px 0 93px;
+   background: url(../images/style.svg);
+   background-position: left bottom;
+   background-repeat: no-repeat;
+   color: #202020;
+   text-align: center;
+}
+
+.specialise__title {
+   margin-bottom: 96px;
+}
+
+.title {
+   line-height: 45px;
+   font-size: 35px;
+   font-weight: 700;
+   text-align: center;
+}
+
+.specialise__items {
+   display: flex;
+   justify-content: space-between;
+   max-width: 980px;
+   margin: 0 auto;
+}
+
+.specialise__item {
+   width: 280px;
+}
+
+.specialise__item-img {
+   margin-bottom: 23px;
+   min-height: 159px;
+}
+
+.specialise__item-title {
+   padding-bottom: 15px;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.specialise__item-text {
+   padding: 0 15px;
+   color: #272727;
+   opacity: 0.7;
+   line-height: 20px;
+}
